@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nettoyants Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nettoyants Pro</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="products.html">Produits</a></li>
+                <li><a href="cart.html">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Bienvenue chez Nettoyants Pro</h2>
+            <p>Découvrez nos produits de nettoyage professionnels pour autos et textiles.</p>
+            <a href="products.html" class="button">Voir les produits</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nettoyants Pro</p>
+    </footer>
+</body>
+</html>

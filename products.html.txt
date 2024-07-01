@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits - Nettoyants Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nos Produits</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="products.html">Produits</a></li>
+                <li><a href="cart.html">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-list">
+            <div class="product">
+                <img src="product1.jpg" alt="Produit 1">
+                <h3>Produit Nettoyant Auto</h3>
+                <p>Prix: 15€</p>
+                <button onclick="addToCart('Produit Nettoyant Auto', 15)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Produit 2">
+                <h3>Produit Nettoyant Textile</h3>
+                <p>Prix: 20€</p>
+                <button onclick="addToCart('Produit Nettoyant Textile', 20)">Ajouter au panier</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nettoyants Pro</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
